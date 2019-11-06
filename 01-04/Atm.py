@@ -1,21 +1,44 @@
 class Atm:
-    def __init__(self, name):    # Constructor of the class
-        self.name = name
-
-    def doing(self):              # Abstract method, defined by convention only
-        raise NotImplementedError("Subclass must implement abstract method")
-
-
-class Tarik(Atm):
-    def doing(self):
-        return self.name+' Silahkan Ambil Uang Anda!!'
+    def __init__(self, checkBalance):    # Constructor of the class
+        self.balance = balance
+    pilihan = 0
+    while pilihan >0 and pilihan <4:
+    print.('====================================================')
+    print('\tWelcome to this simple ATM machine')
+    print('====================================================')
+    print()
+    print("\tPlease select ATM Transactions")
+    print("\tPress [1] Deposit")
+    print("\tPress [2] Withdraw")
+    print("\tPress [3] Balance Inquiry")
+    print("\tPress [4] Exit")
+    pilihan = int print("\n\tWhat would you like to do? ")    
+    if pilihan > 5:
+        print("\n\tPlease select correct transaction.")
+    else ("\n\tEnter the amount of money to deposit: ")    
     
-class Setor(Atm):
-    def doing(self):
-        return self.name+' Masukkan Uang Anda'
-    
-Dinay = Tarik('Dinay')
-Yammi = Setor('Yammi')
+class Deposit(Atm):
+    def __init__(self, deposit):    # Constructor of the class
+        self.deposit = d
 
-print(Dinay.doing())
-print(Yammi.doing())
+    def setDeposit(self, ):
+    def getDeposit(self, ):
+        return self.deposit  
+
+class Withdraw(Atm):
+    def __init__(self, withdraw):    # Constructor of the class
+        self.withdraw= 0
+    def setWithdraw(self, withdraw):
+    def getWithdraw(self, withdraw):
+        return self.withdraw  
+
+class BalanceInquiry(Atm):
+    def __init__(self, balance):    # Constructor of the class
+        self.balance= 0
+    def setBalance(self, balance):
+    def getBalance(self, balance):
+        return self.balance  
+
+    
+
+print(Atm)
