@@ -1,0 +1,7 @@
+1. Dalam pemrograman komputer, pengujian unit adalah metode pengujian perangkat lunak yang dengannya setiap unit kode sumber, set satu atau lebih modul program komputer bersama dengan data kontrol yang terkait, prosedur penggunaan, dan prosedur operasi, diuji untuk menentukan apakah mereka cocok untuk digunakan.
+
+2. Kerangka kerja pengujian unit yang paling bebas pada awalnya terinspirasi oleh JUnit dan memiliki cita rasa yang sama dengan kerangka pengujian unit utama dalam bahasa lain. Ini mendukung otomatisasi pengujian, pembagian pengaturan dan kode shutdown untuk pengujian, agregasi pengujian ke dalam koleksi, dan independensi pengujian dari kerangka kerja pelaporan.
+
+3. unittest berisi kerangka kerja pengujian dan pelari ujian. unittest memiliki beberapa persyaratan penting untuk menulis dan melaksanakan tes.
+
+
